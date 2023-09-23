@@ -16,6 +16,26 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="cities.html">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcities">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-link">
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-link">
+            <a class="nav-link" aria-current="page" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <h1>Visit cities with Krishna Vasanthi Yakkala</h1>
   <div class="container">
     <div class="row">
@@ -130,5 +150,23 @@
     <a href="basic.html" class="dropdown-item">Basic Page</a>
     <a href="advanced.html" class="dropdown-item">Advance Page</a>
   </div>
+  <br><br>
+  <label>Forms</label>
+  <form>
+    <div class="mb-3 form-group">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3 form-group">
+      <label for="City" class="form-label">City</label>
+      <input type="text" class="form-control" id="City" aria-describedby="City" placeholder="Enter your city">
+    </div>
+    <div class="mb-3 form-check">
+      <label for="formcheck" class="check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input" id="formcheck" aria-describedby="Check">
+    </div>
+    <button class="btn btn-primary" type="Submit">Submit</button>
+  </form>
 </body>
 </html>
